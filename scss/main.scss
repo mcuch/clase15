@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import './variables/colores';
+@import './variables/tipografia';
+@import './secciones/index';
+@import './secciones/grilla';
+@import './secciones/nav';
+@import './secciones/header';
+@import './secciones/main';
+@import './secciones/footer';
+@import './secciones/contacto';
+@import './secciones/historia';
+@import './secciones/noticias';
+@import './secciones/tours';

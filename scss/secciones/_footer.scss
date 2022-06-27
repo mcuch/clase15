@@ -1,0 +1,28 @@
+.footer {
+    grid-area: footer;
+    background-color: white;
+    min-height: 20vh;
+    background-image: linear-gradient(to bottom, maroon, white);
+    .apps {
+        padding: 60px 50px 20px 50px;
+        color: maroon;
+        .facebook {
+            display: inline-block;
+        }
+        .instagram {
+            display: inline-block;
+        }
+        .twitter {
+            display: inline-block;
+        }
+        .spotify {
+            display: inline-block;
+        }
+    }
+    .copyright {
+        margin-left: 650px;
+        display: inline;
+        color: maroon;
+    }
+    
+}

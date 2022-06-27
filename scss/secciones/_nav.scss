@@ -1,0 +1,27 @@
+.nav {
+    grid-area: nav;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: maroon;
+
+    & ul {
+        margin-top: 40px;
+        width: 100%;
+    }
+
+    & li {
+        list-style: none;
+        padding: 20px;
+        text-align: center;
+        & :hover {
+            background-color: brown;
+        }
+    }
+    
+    & a {
+        color: white;
+        text-decoration: none;
+    }
+
+}
