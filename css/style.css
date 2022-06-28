@@ -1,9 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Gothic&display=swap");
 * {
   margin: 0;
   padding: 0; }
 
 .header .logo a {
-  padding: 20px 400px 20px 400px;
+  padding-top: 20px;
+  padding-left: 450px;
   color: white;
   text-decoration: none;
   display: inline-block; }
@@ -51,6 +53,8 @@
 .header {
   grid-area: header;
   background-color: maroon; }
+  .header .logo a {
+    font-family: "League Gothic", sans-serif; }
 
 .main {
   grid-area: main;

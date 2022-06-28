@@ -2,6 +2,8 @@
     grid-area: header;
     background-color: maroon;
     .logo a {
+        font-family: $leagueGothic;
         @extend %estiloLogo;
+  
     }
 }
