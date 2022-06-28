@@ -2,20 +2,26 @@
   margin: 0;
   padding: 0; }
 
+.header .logo a {
+  padding: 20px 400px 20px 400px;
+  color: white;
+  text-decoration: none;
+  display: inline-block; }
+
 #index .main {
   grid-area: main;
   height: 70vh;
   background-color: white; }
   #index .main .imagenIndex {
-    padding: 20px 300px 20px 300px; }
+    margin-left: 300px;
+    margin-top: 0px; }
   #index .main button {
     margin: 5px 425px 5px 425px;
     text-decoration: none;
     color: maroon; }
     #index .main button :hover {
-      margin: 5px 425px 5px 425px;
-      text-decoration: none;
-      color: maroon; }
+      transform: scale(1.25);
+      transition: 0.8s; }
 
 .grilla {
   display: grid;
@@ -45,11 +51,6 @@
 .header {
   grid-area: header;
   background-color: maroon; }
-  .header .logo a {
-    padding: 20px 400px 20px 400px;
-    color: white;
-    text-decoration: none;
-    display: inline-block; }
 
 .main {
   grid-area: main;

@@ -11,12 +11,9 @@
     }
 
     & li {
-        list-style: none;
-        padding: 20px;
-        text-align: center;
-        & :hover {
-            background-color: brown;
-        }
+
+    @include navLi (brown)
+
     }
     
     & a {

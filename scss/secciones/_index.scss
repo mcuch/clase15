@@ -6,7 +6,8 @@
         background-color: white;
 
         .imagenIndex {
-            padding: 20px 300px 20px 300px;
+            margin-left: 300px;
+            margin-top: 0px;
 
         }
 
@@ -16,9 +17,8 @@
             color: maroon;
 
             & :hover {
-                margin: 5px 425px 5px 425px;
-                text-decoration: none;
-                color: maroon;
+                transform: scale(1.25);
+                transition: 0.8s;
             }
 
         }

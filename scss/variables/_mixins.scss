@@ -1,0 +1,8 @@
+@mixin navLi ($colorHover) {
+    list-style: none;
+    padding: 20px;
+    text-align: center;
+    & :hover {
+        background-color: $colorHover;
+    }
+}
