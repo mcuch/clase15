@@ -1,0 +1,4 @@
+Hice un extend para el logo.
+Hice un mixin para los items del nav.
+Agregue keywords, descripciones, encabezados y modifique titulos en cada pagina html.
+Importe una tipografia en la variable tipografia.
